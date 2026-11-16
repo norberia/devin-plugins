@@ -1,0 +1,16 @@
+{
+  "name": "devin-plugins",
+  "version": "0.1.0",
+  "description": "Meta-plugin: installing this pulls in norberia's personal Devin plugin set",
+  "author": { "name": "norberia" },
+  "license": "MIT",
+  "keywords": ["devin", "plugin", "meta"],
+
+  "requiredPlugins": [
+    {
+      "source": "git-subdir",
+      "url": "https://github.com/norberia/devin-plugins.git",
+      "path": "plugins/longbridge"
+    }
+  ]
+}

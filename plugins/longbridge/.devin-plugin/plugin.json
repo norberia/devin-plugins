@@ -1,0 +1,14 @@
+{
+  "name": "longbridge",
+  "version": "0.1.0",
+  "displayName": "Longbridge",
+  "description": "Longbridge brokerage via the official hosted MCP server: real-time quotes, options, fundamentals, portfolio, and order management for US and HK markets",
+  "homepage": "https://open.longbridge.com",
+  "license": "MIT",
+  "keywords": ["Finance"],
+  "mcpServers": {
+    "longbridge": {
+      "url": "https://mcp.longbridge.com"
+    }
+  }
+}
