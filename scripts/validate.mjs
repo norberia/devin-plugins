@@ -24,7 +24,7 @@ function parseJson(path, label) {
   }
 }
 
-// Returns the same-repo git-subdir paths referenced by the manifest.
+// Returns the same-repo git-subdir paths listed in requiredPlugins.
 function checkManifest(manifest, label) {
   if (!manifest.name) fail(`${label}: manifest missing "name"`);
   else if (!kebab.test(manifest.name))
@@ -48,7 +48,7 @@ function checkManifest(manifest, label) {
       }
       if (!existsSync(join(root, ref.path, ".devin-plugin", "plugin.json")))
         fail(`${label}: ${list} entry "${ref.path}" does not resolve to a plugin in this repo`);
-      localPaths.push(ref.path.replace(/^\.\//, "").replace(/\/$/, ""));
+      if (list === "requiredPlugins") localPaths.push(ref.path.replace(/^\.\//, "").replace(/\/$/, ""));
     }
   }
   return localPaths;
