@@ -11,6 +11,11 @@
       "source": "git-subdir",
       "url": "https://github.com/norberia/devin-plugins.git",
       "path": "plugins/longbridge"
+    },
+    {
+      "source": "git-subdir",
+      "url": "https://github.com/norberia/devin-plugins.git",
+      "path": "plugins/ticktick"
     }
   ]
 }

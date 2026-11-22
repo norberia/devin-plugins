@@ -1,0 +1,14 @@
+{
+  "name": "ticktick",
+  "version": "0.1.0",
+  "displayName": "TickTick",
+  "description": "TickTick via the official hosted MCP server (OAuth): read, create, update, and complete tasks and lists",
+  "homepage": "https://ticktick.com",
+  "license": "MIT",
+  "keywords": ["Productivity"],
+  "mcpServers": {
+    "ticktick": {
+      "url": "https://mcp.ticktick.com"
+    }
+  }
+}
