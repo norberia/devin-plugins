@@ -15,8 +15,8 @@ rules, hooks, and MCP servers they ship.
 
 ## Plugins
 
-| Plugin                        | What it adds                                                                                    |
-| ----------------------------- | ----------------------------------------------------------------------------------------------- |
+| Plugin                             | What it adds                                                                                    |
+| ---------------------------------- | ----------------------------------------------------------------------------------------------- |
 | [`longbridge`](plugins/longbridge) | Longbridge MCP (`https://mcp.longbridge.com`, OAuth 2.1): quotes, portfolio, trading for US/HK. |
 | [`ticktick`](plugins/ticktick)     | TickTick MCP (`https://mcp.ticktick.com`, OAuth 2.1): tasks, lists, habits, focus, tags.        |
 
